@@ -1,0 +1,81 @@
+/* some of the eproperties are commented out as it turns out i may not need them, left them in to show a little of the thought process*/
+
+body {
+  margin: 0;
+}
+
+h3 {
+  font: verdana;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2;
+  color: white;
+  text-align: center;
+}
+
+p {
+  /*position: relative;*/
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  color: #F94F6D;
+  text-align: center;
+  margin: auto;
+  padding: 12%;
+}
+
+.container {
+  background: #202A44;
+  /*width: 70%;
+  height: 55%;*/
+  /*margin: auto;*/
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.score {
+  background-color: black;
+  /*position: relative;*/
+  /*justify-content: center;*/
+  width: 120%;
+  height: 40%;
+}
+
+
+.add-btns {
+  text-align: center;
+  font-family: 'Cursed Timer ULiL';
+  padding: 10%;
+  width: 100%;
+}
+
+.btn {
+  background-color: #202A44;
+  color: #ACC8D7;
+  border-color: #ACC8D7;
+  border-style: solid;
+  border-radius: 15%;
+  filter: brightness(0.76);
+}
+
+.new-game {
+  background-color: #202A44;
+  display: flex;
+  justify-content: space-around;
+  /*align-items: center;*/
+  padding: 10%;
+}
+
+.new-game-btn {
+  background-color: #202A44;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 5%;
+  /*filter: brightness(0.76)*/;
+}
